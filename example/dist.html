@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../dist/assets/css/roc-cli-rollup-vue-template.css">
+</head>
+<body>
+<div id="app">
+  <roc-cpn></roc-cpn>
+</div>
+<script src="../node_modules/vue/dist/vue.global.prod.js"></script>
+<script src="../dist/roc-cli-rollup-vue-template.umd.min.js"></script>
+<script>
+  const obj = {
+    data() {
+      return {};
+    },
+    components: {
+      "roc-cpn": Roc.RocCpn,
+    }
+  };
+  Vue.createApp(obj).mount("#app");
+</script>
+</body>
+</html>

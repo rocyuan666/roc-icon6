@@ -1,0 +1,26 @@
+/*访问 https://aka.ms/tsconfig 阅读有关此文件的详细信息*/
+{
+  "include": [
+    "./src/**/*",
+    "./example/**/*",
+    "vue-file.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",                                      /* 设置基本目录为项目的 根 目录 */
+    "newLine": "LF",                                     /* 指定文件时要使用的行末序列：“CRLF”（dos）或“LF”（unix） */
+    "paths": {
+      "@src/*": ["src/*"]                                /* 使用别名 '@src' 指向 'src' */
+    },
+    "target": "ES5",                                     /* 指定生成的 JavaScript 代码所要兼容的 ECMAScript 语言版本 */
+    "module": "ESNext",                                  /* 指定生成的模块代码 */
+    "moduleResolution": "bundler",                       /* 这个选项决定了 TypeScript 编译器如何查找和解析 import 语句引用的外部模块 */
+    "resolveJsonModule": true,                           /* 启用导入.json文件 */
+    "strict": true,                                      /* 启用所有严格的类型检查选项 */
+    "skipLibCheck": true,                                /* 跳过对所有.d.ts文件的类型检查 */
+    "declaration": true,                                 /* 启用类型声明文件.d.ts生成 */
+    "declarationDir": "dist/types"                       /* 类型声明文件.d.ts输出目录 */
+  }
+}
