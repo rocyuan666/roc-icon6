@@ -3,24 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <link rel="stylesheet" href="../dist/assets/css/roc-cli-rollup-vue-template.css">
+  <link rel="stylesheet" href="../dist/assets/css/roc-icon-plus.css">
 </head>
 <body>
 <div id="app">
-  <roc-cpn></roc-cpn>
+  <roc-icon-plus name="user"></roc-icon-plus>
 </div>
 <script src="../node_modules/vue/dist/vue.global.prod.js"></script>
-<script src="../dist/roc-cli-rollup-vue-template.umd.min.js"></script>
+<script src="../dist/roc-icon-plus.umd.min.js"></script>
 <script>
-  const obj = {
-    data() {
-      return {};
-    },
-    components: {
-      "roc-cpn": Roc.RocCpn,
-    }
-  };
-  Vue.createApp(obj).mount("#app");
+
+  const obj = {};
+  const app = Vue.createApp(obj);
+  app.use(RocIconPlus);
+  app.mount("#app");
 </script>
 </body>
 </html>

@@ -1,3 +1,10 @@
-import RocCpn from './components/RocCpn.vue'
+import { Plugin, App } from 'vue'
+import RocIconPlus from './components/RocIconPlus/RocIconPlus.vue'
 
-export { RocCpn }
+const RocIconPlusPlugin: Plugin = {
+  install(app: App) {
+    app.component(RocIconPlus?.name || '', RocIconPlus)
+  },
+}
+
+export default RocIconPlusPlugin
