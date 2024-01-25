@@ -1,8 +1,8 @@
 {
   "name": "roc-icon6",
   "libName": "roc-icon-plus",
-  "version": "1.0.1",
-  "description": "roc-icon-plus",
+  "version": "1.0.2",
+  "description": "roc-icon6 基于 fontawesome-free-6.5.1图标库",
   "keywords": ["icon" ,"roc-icon", "roc-icon6", "vue-icon", "vue3", "vue", "rocyuan666", "rocyuan", "roc"],
   "type": "module",
   "main": "dist/roc-icon-plus.es.js",
