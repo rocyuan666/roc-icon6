@@ -1,7 +1,7 @@
 {
   "name": "roc-icon6",
   "libName": "roc-icon-plus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "roc-icon6 基于 fontawesome-free-6.5.1图标库",
   "keywords": ["icon" ,"roc-icon", "roc-icon6", "vue-icon", "vue3", "vue", "rocyuan666", "rocyuan", "roc"],
   "type": "module",
@@ -15,7 +15,7 @@
   "homepage": "https://rocyuan666.gitee.io/doc/roc-icon-plus.html",
   "repository": {
     "type": "git",
-    "url": "git+https://rocyuan666.github.io"
+    "url": "git+https://github.com/rocyuan666/roc-icon6.git"
   },
   "scripts": {
     "dev": "vite",
