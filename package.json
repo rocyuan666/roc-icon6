@@ -1,8 +1,9 @@
 {
   "name": "roc-icon6",
   "libName": "roc-icon-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "roc-icon-plus",
+  "keywords": ["icon" ,"roc-icon", "roc-icon6", "vue-icon", "vue3", "vue", "rocyuan666", "rocyuan", "roc"],
   "type": "module",
   "main": "dist/roc-icon-plus.es.js",
   "module": "dist/roc-icon-plus.es.js",
@@ -21,7 +22,6 @@
     "build": "rimraf dist && node build/index.js",
     "format": "prettier --write src"
   },
-  "keywords": [],
   "author": "rocyuan",
   "license": "MIT",
   "devDependencies": {
